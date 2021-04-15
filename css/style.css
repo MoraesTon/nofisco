@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto, sans-serif;
+}
+
+
+hr {
+    border-top: tomato solid 1px;
+}
+
+.container {
+}
+.container header {
+    background:image();
+    color: white;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container main {
+    width: 90%;
+    margin: auto;
+    border: 1px solid tomato;
+    padding: 5px;
+}
