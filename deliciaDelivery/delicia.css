@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+body {
+    background: #FFF0DD
+}
+
+main {
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container header {
+    display: flex;
+    justify-content: center;
+}
+
+.caldos-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+.caldos-header img {
+    width: 90px;
+}
+
+.caldos {
+    width: 100%;
+}
+
+.caldos .tr {
+    display: flex;
+    margin-bottom: 10px;
+    
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.caldos .tr .td:first-child {
+    justify-content:flex-end;
+}
+
+.caldos .tr .td {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.lanches-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lanches-logo img {
+    width: 100px;
+}
+
+.lanches-bg1 {
+    border: 3px solid #FF6201;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.lanches-body {
+    display: flex;
+    width: 100%;
+    color: #FFF0DD;
+    background: #1C1C1C;
+
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.lanches-body .table {
+    padding-top: 20px;
+}
+
+.lanches-body .table .tr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.lanches-body .table .tr .item .product{
+    font-size: 1.3em;
+}
+
+.lanches-body .table .tr .description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lanches-body .table .tr .price {
+    display: flex;
+    width: 40;   
+}
+
+.lanches-body .table .tr .value {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+    padding: 0 5px;
+
+    background: #1C1C1C;
+    color: #FFF0DD;
+}
