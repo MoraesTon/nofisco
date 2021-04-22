@@ -110,6 +110,9 @@ main {
 .lanches-body .table .tr .value {
     font-size: 2em;
     font-weight: 900;
+
+    width: 90px;
+    border: 1px solid #FFF0DD;
 }
 
 footer {

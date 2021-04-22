@@ -4,26 +4,165 @@
     font-family: roboto, sans-serif;
 }
 
-
-hr {
-    border-top: tomato solid 1px;
-}
-
 .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
+
+@media only screen and (max-width: 400px) {
+    .container header {
+        background: #FF6347;
+        color: white;
+        height: 90px;
+    
+    }
+    
+    .container header .header-adj {
+        width: 90%;
+        margin: auto;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .container header .header-adj .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        border: solid 2px white;
+        border-radius: 10px;
+        background: #15534D;
+        
+        height: 40px;
+    
+        cursor: pointer;
+    }
+    
+    .container header .header-adj .login span{
+        margin-left: 3px;
+    }
+        
+    .container header .header-adj .login img {
+        color: white;
+    }
+    
+    .container header .header-adj ul {
+        display: flex;
+    
+        list-style: none;
+    }
+        
+    .container header .header-adj .logo img {
+        max-height: 90px;
+    }
+    
+}
+
+
+
 .container header {
-    background:image();
+    background: #FF6347;
     color: white;
-    height: 50px;
+    height: 90px;
+
+}
+
+.container header .header-adj {
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container header .header-adj .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 2px white;
+    border-radius: 10px;
+    background: #15534D;
+
+    width: 150px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+
+.container header .header-adj .login span{
+    margin-left: 3px;
+}
+
+.container header .header-adj .login p{
+    margin-left: 3px;
+}
+
+.container header .header-adj .login img {
+    color: white;
+}
+
+.container header .header-adj ul {
+    display: flex;
+
+    list-style: none;
+}
+
+.container header .header-adj .logo img {
+    max-height: 90px;
+}
+
+.container main {
+    width: 90%;
+    margin: auto;
+    padding: 5px 10px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container main {
+.container main article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #15534D;
+}
+
+.container main article p {
+    text-align: center;
+}
+
+.container main article img {
+    max-width: 200px;
+}
+
+.container footer {
+    background: #FF6347;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+}
+
+.container footer .inside {
     width: 90%;
     margin: auto;
-    border: 1px solid tomato;
-    padding: 5px;
 }
+
+.container footer .inside .footer-logo {
+    width: 100px;
+}
+
+.container footer .inside .footer-logo img {
+    max-height: 150px;
+}
+
