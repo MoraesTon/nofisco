@@ -1,1 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border: rgba(250, 168, 168, 0.8) 1px solid;
+}
+
+table th {
+    border-bottom: rgba(250, 168, 168, 0.8) 1px solid;
+}
+
+tr + tr:nth-child(odd){
+    background: rgba(250, 168, 168, 0.8);
+}
